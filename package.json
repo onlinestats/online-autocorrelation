@@ -1,0 +1,31 @@
+{
+  "name": "online-autocorrelation",
+  "version": "0.0.1",
+  "description": "Calculate autocorrelation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onlinestats/online-autocorrelation.git"
+  },
+  "keywords": [
+    "statistics",
+    "correlation",
+    "autocorrelation",
+    "online-algorithm"
+  ],
+  "author": "Anton Zemlyansky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onlinestats/online-autocorrelation/issues"
+  },
+  "homepage": "https://github.com/onlinestats/online-autocorrelation#readme",
+  "dependencies": {
+    "online-autocovariance": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "^5.0.1"
+  }
+}
